@@ -41,12 +41,12 @@ while(true){
 
         }
     } catch (error) {
-        const makeErr = "Opps invalid input";
+        // const makeErr = "Opps invalid input";
         const year = prompt("Enter a year: ");
         const month = prompt("Enter a month: ");
         continue;
-
-        console.log(error.makeErr);
+        // console.log(error.makeErr);
+        // makeErr();
     }
-    makeErr();
+    
 }
