@@ -1,6 +1,6 @@
-******Developed Calendar Leap year using Javascript utilizing node.js ******
+**Developed Calendar Leap year using Javascript utilizing node.js **
 
-**TASK:
+TASK:
 
 Create a method/function that will identify/return the end month date with a given month and year.
 
@@ -18,7 +18,7 @@ Expected Return: 29 (last day of February in year 2020, a leap year)
 
 **The program will be terminated once user enters last data to be inputed (Expected Return: 29 (last day of February in year 2020, a leap year)**
 
-References : https://www.youtube.com/watch?v=rpSh3_QjrjU**
+References : https://www.youtube.com/watch?v=rpSh3_QjrjU
 
-Output:
+**Output:**
 
