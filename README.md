@@ -22,3 +22,6 @@ References : https://www.youtube.com/watch?v=rpSh3_QjrjU
 
 **Output:**
 
+![image](https://github.com/user-attachments/assets/0de84bf0-2b72-43f6-93c5-f77086dd304c)
+
+
