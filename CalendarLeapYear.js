@@ -42,8 +42,8 @@ while(true){
         }
     } catch (error) {
         // const makeErr = "Opps invalid input";
-        year = parseInt(prompt("Enter a year: "), 10);
-        month = parseInt(prompt("Enter a month: "), 10);        
+        let year = parseInt(prompt("Enter a year: "), 10);
+        let month = parseInt(prompt("Enter a month: "), 10);        
         continue;
         // console.log(error.makeErr);
         // makeErr();
