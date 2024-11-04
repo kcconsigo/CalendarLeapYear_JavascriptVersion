@@ -10,7 +10,7 @@ function is_leapyear(year) {
 }
 function days_inMonth(year, month){
     var month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-		if (is_leapyear(year) && days_inMonth(month) == 2) {
+		if (is_leapyear(year) && month == 2) {
 			return 29;
 
 		}
@@ -19,12 +19,12 @@ function days_inMonth(year, month){
 }
 while(true){
     try {
-        const year = prompt("Enter a year: ");
+        const year = parseInt(prompt("Enter a year: "), 10);
         
         is_leapyear(year);
-        const month = prompt("Enter a month: ");
-        
-        days_inMonth(month);
+        const month = parseInt(prompt("Enter a month: "), 10);
+
+        days_inMonth(year, month);
 
         if(is_leapyear(year)){
             console.log(year + ' is a leap year');
@@ -42,8 +42,8 @@ while(true){
         }
     } catch (error) {
         // const makeErr = "Opps invalid input";
-        const year = prompt("Enter a year: ");
-        const month = prompt("Enter a month: ");
+        year = parseInt(prompt("Enter a year: "), 10);
+        month = parseInt(prompt("Enter a month: "), 10);        
         continue;
         // console.log(error.makeErr);
         // makeErr();
