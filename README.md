@@ -1,6 +1,6 @@
 **Developed Calendar Leap year using Javascript utilizing node.js **
 
-TASK:
+**This serves as my Activity TASK for my Manual Tester Colleague:**
 
 Create a method/function that will identify/return the end month date with a given month and year.
 
